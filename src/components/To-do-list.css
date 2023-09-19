@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #373864;
+}
+
+
+.sub-container {
+  justify-content: center;
+  margin-left: 26%;
+  margin-top: 5%;
+  width: 50%;
+  border: 7px solid rgb(241, 233, 233);
+  border-radius: 5px;
+  box-shadow: 5px 10px 8px #888888;
+  background-color: white;
+  padding: 20px;
+  text-align: center;
+  height: 90vh;
+  
+
+
+}
+
+.main-heading {
+  box-shadow: 5px 10px 8px #373864;
+  background-color: rgb(146, 130, 238);
+  color: white;
+
+}
+
+.inputfield {
+  height: 42px;
+  margin-top: 23px;
+  position: absolute;
+  width: 30.8%;
+  left: 419px;
+  text-align: start;
+  border-color: blueviolet;
+  border-radius: 4px;
+  font-weight: 300;
+
+
+}
+
+.button1 {
+  background-color: #373864;
+  color: aliceblue;
+  height: 42px;
+  width: 135px;
+  font-size: 20px;
+  margin-left: 85px;
+  box-shadow: 5px 5px 15px -5px blueviolet;
+  left: 774px;
+  margin-top: 23px;
+  position: absolute;
+  border-radius: 4px;
+  padding-top: 2px;
+
+
+}
+
+.button1:hover {
+  background-color: transparent;
+  color: #373864;
+  border-color: rgba(189, 145, 230, 0.527);
+
+}
+
+ol li {
+
+  text-align: left;
+  font-size: 20px;
+  font-weight: 300;
+  display: flex;
+  align-items: center;
+  box-shadow: 5px 5px 15px -5px blueviolet;
+  height: 6vh;
+}
+
+.button2 {
+
+  position: absolute;
+  left: 69%;
+  margin-top: 2px;
+  width: 85px;
+}
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .sub-container{
+    width: 55%;
+   
+  }
+  ol li {
+  
+    text-align: left;
+    font-size: 12px;
+    font-weight: 400;
+    display: flex;
+    margin-left: -26px;
+    box-shadow: 5px 5px 15px -5px blueviolet;
+   
+    align-items: center;
+    
+  
+  }
+  .inputfield{
+    margin-left: -181px;
+  }
+  .button1{
+   
+    left: 405px;
+    width: 115px;
+    font-size: 12px;
+    font-weight: bolder;
+  }
+  .button2{
+    width: 73px;
+    height: 6vh;
+    padding-top: 2px;
+  
+  }
+  
+  
+  }
+
+
+.complete {
+  cursor: pointer;
+  text-decoration: line-through;
+}
+
+.hide {
+  display: none;
+}
